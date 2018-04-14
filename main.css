@@ -16,7 +16,6 @@ body {
     overflow: hidden;
     position: fixed;
     margin-left: 0;
-    transition: all 1s;
 }
 
 .main {
@@ -29,7 +28,7 @@ body {
     right: 0;
     bottom: 0;
     margin: 0 auto;
-    transition: all 1s;
+    transition: all 1s;   /*在这里更改切换速度，除了这里，你还需要到JS文件中更改相应参数*/
     top: 50%;
     transform: translateY(-50%);
     margin-left: 0;
